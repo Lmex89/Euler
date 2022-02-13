@@ -40,7 +40,6 @@ def get_product_list(list_digits: Iterable):
 
 def max_adj_prod(list_digits: Iterable, max_digits=4):
 
-    cont = 0
     max_product = 0
     while True:
         if len(list_digits) <= 4:
